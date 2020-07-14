@@ -1,0 +1,164 @@
+
+        .bg-color{
+            background-color: #fff;
+            padding-left: 15px;
+            border-radius: 4px;
+        }
+        .padding-15{
+            padding-left: 15px;
+        }
+        .padding-30{
+            padding-left: 30px;
+        }
+       .border-bot{
+           border-bottom: 1px solid rgb(230, 225, 225);
+           height: 60px;
+           line-height: 60px;
+       }
+       .margin{
+           margin-left: 20px;
+       }
+       .xinxi{
+           margin-top: 20px;
+       }
+       .margin-20{
+           margin-left: 20px;
+       }
+       .phone{
+           margin-top: 20px;
+       }
+       .phone p{
+           font-size: 14px;
+           color: #01c0c8;
+       }
+       .yijian{
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #dcdfe6;
+            border-color: #dcdfe6;
+            color: #606266;
+            -webkit-appearance: none;
+            text-align: center;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: .1s;
+            font-weight: 500;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+       }
+       .yijian:hover{
+            color: #01c0c8;
+            border-color: #b3ecef;
+            background-color: #e6f9fa;
+       }
+       .baobei{
+           margin: 16px 0px;
+           border: 1px solid rgb(230, 225, 225);
+           height: 34px;
+           line-height: 34px;
+           border-radius: 4px;
+       }
+       .baobei span{
+           padding-left: 10px;
+           font-size: 14px;
+       }
+       .baobei:hover{
+            color: #01c0c8;
+            border-color: #b3ecef;
+            background-color: #e6f9fa;
+       }
+       .juli{
+           margin-bottom: 70px;
+       }
+       .birthday{
+           height: 200px;
+           margin-top: 100px;
+           text-align: center;
+       }
+       .bg-color2{
+           border-radius: 4px;
+          background-color: #fff;
+          margin-top: 20px;
+          padding-left: 15px;
+       }
+       .bg-color3{
+            border-radius: 4px;
+            background-color: rgb(248, 244, 244);
+           margin-top: 20px;
+           padding-left: 15px;
+       }
+       .col-sm-6{
+           padding-right: 40px;
+       }
+       .ImgNum{
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 4px;
+            width: 254px;
+            height: 110px;
+            color: rgba(0, 0, 0, 0.45);
+            float: left;
+            margin-right: 20px;
+       }
+       .ImgNum img{
+           padding-top: 10px;
+           padding-left: 20px;
+           float: left;
+       }
+       .bbNum{
+           float: left;
+           margin-top: 30px;
+           margin-left: 20px;
+       }
+      .ImgNum span{
+           font-size: 20px;
+           font-weight: bold;
+      }
+      .right-panel header.header {
+            background: #01c0c8;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+            clear: both;
+            display: inline-block;
+            padding: 15px 20px 13px;
+            width: 100%;
+        }
+        .el-col-12 {
+            width: 50%;
+        }
+        .el-card__body {
+            padding: 20px;
+        }
+        .t-c[data-v-7ecba44c] {
+            text-align: center;
+        }
+        .el-col-8 {
+            width: 33.33333%;
+        }
+        .el-col-1 {
+            width: 4.16667%;
+        }
+        .el-col-7 {
+            width: 29.16667%;
+        }
+        .el-progress {
+            position: relative;
+            line-height: 1;
+        }
+        .el-progress--circle .el-progress__text {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            transform: translateY(-50%);
+        }

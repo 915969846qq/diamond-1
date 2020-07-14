@@ -1,0 +1,1391 @@
+
+//部门管理
+Department1={
+//    行政办公部门
+    No:"01",
+    Name:"Administration",
+    Number:"6",
+    Executive:"王启帆",
+    Telephone:"17053469555",
+    Address:"四川省成都市高新区云华路333号8栋521",
+    Describe:"负责行使院长职权，主要行使院长委托职权。教师以及管理人员的管理。"
+};
+// console.log(Department.Name);
+Department2={
+//    财务部门
+    No:"02",
+    Name:"Finance",
+    Number:"4",
+    Executive:"周俊庭",
+    Telephone:"17053469333",
+    Address:"四川省成都市高新区云华路333号8栋522",
+    Describe:"负责园内的各类开支的核算，包括收入、支出、成本等。"
+};
+Department3={
+//    后勤部门
+    No:"03",
+    Name:"Logistics",
+    Number:"2",
+    Executive:"方若熹",
+    Telephone:"17053469000",
+    Address:"四川省成都市高新区云华路333号8栋523",
+    Describe:"主要管理幼儿园教师和孩子的安全以及生活上需求，以及园内的各类物品的维修和保养；"
+};
+Department4={
+//    组织部门
+    No:"03",
+    Name:"Organization",
+    Number:"4",
+    Executive:"赵悦竹",
+    Telephone:"17053468555",
+    Address:"四川省成都市高新区云华路333号8栋524",
+    Describe:"负责教师以及各类管理人员的招聘和转移手续，以及各种社会保障基金的交付。"
+};
+Department5={
+//    教育部门
+    No:"05",
+    Name:"Education",
+    Number:"10",
+    Executive:"唐艺芯",
+    Telephone:"17053468444",
+    Address:"四川省成都市高新区云华路333号8栋525",
+    Describe:"对教师的教育质量的评估，对整个园内教育评估，以及家长意见的反馈，做出下一步的教育安排与要求。"
+};
+Department6={
+//    饮食健康与卫生部门
+    No:"06",
+    Name:"Diet",
+    Number:"3",
+    Executive:"唐绍辉",
+    Telephone:"17053468333",
+    Address:"四川省成都市高新区云华路333号8栋526",
+    Describe:"负责制定食谱、安排饮食，保证孩子们营养的均衡和全面、饭莱的质量和搭配。"
+};
+Department7={
+//    医疗部门
+    No:"07",
+    Name:"Medicine",
+    Number:"3",
+    Executive:"赵雨萱",
+    Telephone:"17053468222",
+    Address:"四川省成都市高新区云华路333号8栋527",
+    Describe:"负责按照卫生部门颁发的各种儿童保健、卫生的规定完成孩子的体检、健康管理、疾病防控、计划免疫，以及全园卫生、消毒、饮食安全等保障工作"
+};
+
+
+//职工管理
+var Workers={
+    role:"Administrator",
+    Name:"陈逸飞",
+    JobNo:"000000",
+    Age:23,
+    Sex:"男",
+    nation:"汉",
+    Duty:"系统管理员",
+    Tel:17053468000,
+    Email:"1475757814@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:1475757814,
+    ID:110101199003079876,
+    SchoolTag:"西南交通大学",
+    education:"本科",
+    han:"未婚",
+    blood:"o型"
+};
+//教育部门
+Teacher1={
+    role:"Teacher",
+    Name:"唐艺芯",
+    JobNo:"100001",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:17053468444,
+    Email:"289490532@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:289490532,
+    ID:510104199003076652,
+    SchoolTag:"西安电子科技大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Teacher2={
+    role:"Teacher",
+    Name:"龙雪旋",
+    JobNo:"100002",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13494513474,
+    Email:"329333731@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:329333731,
+    ID:510104199003076652,
+    SchoolTag:"南京师范大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+
+Teacher3={
+    role:"Teacher",
+    Name:"蔡思楠",
+    JobNo:"100003",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13493648414,
+    Email:"263911094@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:263911094,
+    ID:110101199003073837,
+    SchoolTag:"西安电子科技大学",
+    education:"本科",
+    han:"未婚",
+    blood:"o型"
+};
+
+Teacher4={
+    role:"Teacher",
+    Name:"宋芳华",
+    JobNo:"100004",
+    Age:25,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13434428196,
+    Email:"38162368@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:38162368,
+    ID:120101199003073599,
+    SchoolTag:"北京工业大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher5={
+    role:"Teacher",
+    Name:"邵若烟",
+    JobNo:"100005",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13454706699,
+    Email:"221754462@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:221754462,
+    ID:120101199003078998,
+    SchoolTag:"北京邮电大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher6={
+    role:"Teacher",
+    Name:"孙玮琪",
+    JobNo:"100006",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13407578002,
+    Email:"21250469@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:21250469,
+    ID:120101199003072238,
+    SchoolTag:"南京邮电大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher7={
+    role:"Teacher",
+    Name:"朱妙柏",
+    JobNo:"100007",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13463985557,
+    Email:"789674044@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:789674044,
+    ID:120101199003079130,
+    SchoolTag:"浙江师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher8={
+    role:"Teacher",
+    Name:"韩秀娟",
+    JobNo:"100008",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13420001620,
+    Email:"237460050@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:237460050,
+    ID:120101199003075439,
+    SchoolTag:"哈尔滨医科大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher9={
+    role:"Teacher",
+    Name:"莘滢滢",
+    JobNo:"100009",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13482433082,
+    Email:"338230573@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:338230573,
+    ID:510116199003078530,
+    SchoolTag:"四川农业大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+
+Teacher10={
+    role:"Teacher",
+    Name:"孙安青",
+    JobNo:"100010",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"教育",
+    Tel:13443468833,
+    Email:"239961295@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:239961295,
+    ID:510116199003070037,
+    SchoolTag:"西南财经大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//行政办公部门
+Administrative1={
+    role:"行政主管",
+    Name:"王启帆",
+    JobNo:"200001",
+    Age:25,
+    Sex:"男",
+    nation:"汉",
+    Duty:"管理人员",
+    Tel:17053469555,
+    Email:"233332185@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:233332185,
+    ID:510116199003075954,
+    SchoolTag:"西南财经大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+Administrative2={
+    role:"行政成员",
+    Name:"姜欣悦",
+    JobNo:"200002",
+    Age:25,
+    Sex:"男",
+    nation:"汉",
+    Duty:"分派处理任务",
+    Tel:13411834511,
+    Email:"262822612@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:262822612,
+    ID:510116199003073051,
+    SchoolTag:"西南财经大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+Administrative3={
+    role:"行政成员",
+    Name:"陆颜",
+    JobNo:"200003",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"分派处理任务",
+    Tel:13430091360,
+    Email:"275915590@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:275915590,
+    ID:370102199003074412,
+    SchoolTag:"对外经济贸易大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+Administrative4={
+    role:"行政成员",
+    Name:"苍菡",
+    JobNo:"200004",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"分派处理任务",
+    Tel:13453422295,
+    Email:"468201409@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:468201409,
+    ID:370102199003073292,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+Administrative5={
+    role:"行政成员",
+    Name:"慕俪",
+    JobNo:"200005",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"分派处理任务",
+    Tel:13496901207,
+    Email:"97383137@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:97383137,
+    ID:370102199003077496,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+Administrative6={
+    role:"行政成员",
+    Name:"金芸儿",
+    JobNo:"200006",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"分派处理任务",
+    Tel:13468946096,
+    Email:"71667491@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:71667491,
+    ID:370102199003079133,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"已婚",
+    blood:"b型"
+};
+//后勤部门
+Logistics1={
+    role:"后勤组长",
+    Name:"方若熹",
+    JobNo:"300001",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"管理教师及儿童的安全与生活需求",
+    Tel:17053469000,
+    Email:"22325086@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:22325086,
+    ID:230102199003072838,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Logistics2={
+    role:"后勤成员",
+    Name:"慕博裕",
+    JobNo:"300002",
+    Age:21,
+    Sex:"男",
+    nation:"汉",
+    Duty:"管理教师及儿童的安全与生活需求",
+    Tel:13455903513,
+    Email:"228315079@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:228315079,
+    ID:230102199003073291,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//财务部门
+Finance1={
+    role:"财务组长",
+    Name:"周俊庭",
+    JobNo:"400001",
+    Age:21,
+    Sex:"男",
+    nation:"汉",
+    Duty:"园内的各类开支的核算",
+    Tel:17053469333,
+    Email:"215262800@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:215262800,
+    ID:230102199003075772,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Finance2={
+    role:"财务成员",
+    Name:"慕婧玟",
+    JobNo:"400002",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"园内的各类开支的核算",
+    Tel:13416554546,
+    Email:"267879365@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:267879365,
+    ID:230102199003076871,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Finance3={
+    role:"财务成员",
+    Name:"敖米雪",
+    JobNo:"400003",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"园内的各类开支的核算",
+    Tel:13459958698,
+    Email:"211461790@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:211461790,
+    ID:130104199003079983,
+    SchoolTag:"江西师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Finance4={
+    role:"财务成员",
+    Name:"康婉静",
+    JobNo:"400004",
+    Age:21,
+    Sex:"女",
+    nation:"汉",
+    Duty:"园内的各类开支的核算",
+    Tel:13429427980,
+    Email:"278433770@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:278433770,
+    ID:130104199003078868,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//组织部门
+Organization1={
+    role:"组织部组长",
+    Name:"赵悦竹",
+    JobNo:"500001",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"负责人员招聘和转移手续",
+    Tel:17053468555,
+    Email:"17949910@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:17949910,
+    ID:130104199003075181,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Organization2={
+    role:"组织部成员",
+    Name:"龙西贝",
+    JobNo:"500002",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"负责人员招聘和转移手续",
+    Tel:13484418233,
+    Email:"22825378@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:22825378,
+    ID:130104199003077224,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Organization3={
+    role:"组织部成员",
+    Name:"牧湛娟",
+    JobNo:"500003",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"负责人员招聘和转移手续",
+    Tel:13442398488,
+    Email:"227540664@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:227540664,
+    ID:130104199003070882,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Organization4={
+    role:"组织部成员",
+    Name:"茹含巧",
+    JobNo:"500004",
+    Age:20,
+    Sex:"女",
+    nation:"汉",
+    Duty:"负责人员招聘和转移手续",
+    Tel:13444332783,
+    Email:"274494434@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:274494434,
+    ID:130104199003073346,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//饮食健康与卫生部门
+Diet1={
+    role:"饮食健康与卫生部组长",
+    Name:"唐绍辉",
+    JobNo:"600001",
+    Age:22,
+    Sex:"男",
+    nation:"汉",
+    Duty:"保证孩子们营养的均衡和全面",
+    Tel:17053468333,
+    Email:"239109190@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:239109190,
+    ID:420102199003077012,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Diet2={
+    role:"饮食健康与卫生部成员",
+    Name:"程永宁",
+    JobNo:"600002",
+    Age:22,
+    Sex:"男",
+    nation:"汉",
+    Duty:"保证孩子们营养的均衡和全面",
+    Tel:13450628030,
+    Email:"298084690@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:298084690,
+    ID:420102199003072657,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Diet3={
+    role:"饮食健康与卫生部成员",
+    Name:"韩曼寒",
+    JobNo:"600003",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"保证孩子们营养的均衡和全面",
+    Tel:13442992994,
+    Email:"243731904@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:243731904,
+    ID:420102199003074599,
+    SchoolTag:"安徽师范大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//医疗部门
+Medicine1={
+    role:"医疗部组长",
+    Name:"赵雨萱",
+    JobNo:"700001",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"规定完成孩子的体检、健康管理",
+    Tel:17053468222,
+    Email:"287499217@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:287499217,
+    ID:510121199003077504,
+    SchoolTag:"北京中医药大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Medicine2={
+    role:"医疗部成员",
+    Name:"红寻菡",
+    JobNo:"700002",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"规定完成孩子的体检、健康管理",
+    Tel:13461498794,
+    Email:"232537614@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:232537614,
+    ID:510121199003079446,
+    SchoolTag:"北京中医药大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+Medicine3={
+    role:"医疗部成员",
+    Name:"甄荷紫",
+    JobNo:"700003",
+    Age:22,
+    Sex:"女",
+    nation:"汉",
+    Duty:"规定完成孩子的体检、健康管理",
+    Tel:13429721236,
+    Email:"269694689@qq.com",
+    home:"四川省成都市高新区云华路333号8栋521",
+    QQ:269694689,
+    ID:510121199003078523,
+    SchoolTag:"北京中医药大学",
+    education:"本科",
+    han:"未婚",
+    blood:"b型"
+};
+//教育部门老师
+var Teacher=[Teacher1,Teacher2,Teacher3,Teacher4,Teacher5,Teacher6,Teacher7,Teacher8,Teacher9,Teacher10];
+//行政部门
+var Administration=[Administrative1,Administrative2,Administrative3,Administrative4,Administrative5,Administrative6];
+//财务部门
+var Finance=[Finance1,Finance2,Finance3,Finance4];
+//后勤部门
+var Logistics=[Logistics1,Logistics2];
+//医疗部门
+var Medicine=[Medicine1,Medicine2,Medicine3];
+//饮食健康与卫生部门
+var Diet=[Diet1,Diet2,Diet3];
+//组织部门
+var Organization=[Organization1,Organization2,Organization3,Organization4];
+//全部部门
+var Department=[Department1,Department2,Department3,Department4,Department5,Department6,Department7];
+// console.log(Teacher);
+// console.log(Administration);
+// console.log(Finance);
+// console.log(Logistics);
+// console.log(Medicine);
+// console.log(Diet);
+// console.log(Organization);
+// console.log(Department);
+
+//班级管理
+//小班
+SmallClass={
+    ClassNo:"01",
+    ClassName:"小班",
+    ClassLevel:"1",
+    MainTeacher:"唐艺芯",
+    MainTeacherTel: 17053468444,
+    MainTeacherTQQ:"289490532@qq.com",
+    ViceTeacher:"龙雪旋",
+    ViceTeacherTel: 13494513474,
+    ViceTeacherTQQ:"329333731@qq.com",
+    Number:"10",
+};
+//中班
+MiddleClass={
+    ClassNo:"11",
+    ClassName:"中班",
+    ClassLevel:"2",
+    MainTeacher:"蔡思楠",
+    MainTeacherTel: 13493648414,
+    MainTeacherTQQ:"263911094@qq.com",
+    ViceTeacher:"宋芳华",
+    ViceTeacherTel: 13434428196,
+    ViceTeacherTQQ:"38162368@qq.com",
+    Number:"10",
+};
+//大班
+LargeClass={
+    ClassNo:"21",
+    ClassName:"大班",
+    ClassLevel:"3",
+    MainTeacher:"邵若烟",
+    MainTeacherTel: 13454706699,
+    MainTeacherTQQ:"221754462@qq.com",
+    ViceTeacher:"莘滢滢",
+    ViceTeacherTel: 13482433082,
+    ViceTeacherTQQ:"338230573@qq.com",
+    Number:"10",
+};  
+
+//学生  小班
+Student1={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 李兴",
+    FatherName:"李力",
+    Relation1:"父子",
+    FatherTel:18612553026,
+    MotherName:"贾涵菡",
+    Relation2:"母子",
+    MotherTel:18161271402,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"875840975@qq.com",
+    No:"01",
+};
+Student2={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 赵轩",
+    FatherName:"赵鹏涛",
+    Relation1:"父子",
+    FatherTel:15201356185,
+    MotherName:"万以柳",
+    Relation2:"母子",
+    MotherTel:14720868690,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"815298553@qq.com",
+    No:"02",
+};
+Student3={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 赵月",
+    FatherName:"赵星汉",
+    Relation1:"父女",
+    FatherTel:15810882619,
+    MotherName:"盖睿彤",
+    Relation2:"母女",
+    MotherTel:17740968191,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"671178661@qq.com",
+    No:"03",
+};
+Student4={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 乔鸿熙",
+    FatherName:"乔兴言",
+    Relation1:"父子",
+    FatherTel:15652715147,
+    MotherName:"盖静雅",
+    Relation2:"母子",
+    MotherTel:17214026421,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"557413864@qq.com",
+    No:"04",
+};
+Student5={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 步英杰",
+    FatherName:"步昊昊",
+    Relation1:"父子",
+    FatherTel:15810208676,
+    MotherName:"王晶霞",
+    Relation2:"母子",
+    MotherTel:17333391403,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"535088362@qq.com",
+    No:"05",
+};
+Student6={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 蒋浩荡",
+    FatherName:"蒋哲瀚",
+    Relation1:"父子",
+    FatherTel:13683596992,
+    MotherName:"敖寻文",
+    Relation2:"母子",
+    MotherTel:18886605104,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"387697578@qq.com",
+    No:"06",
+};
+Student7={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 桓子舒",
+    FatherName:"桓和正",
+    Relation1:"父女",
+    FatherTel:13521565816,
+    MotherName:"石三婷",
+    Relation2:"母女",
+    MotherTel:18080901255,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"409023528@qq.com",
+    No:"07",
+};
+Student8={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 余玲珑",
+    FatherName:"余阳波",
+    Relation1:"父女",
+    FatherTel:16710027854,
+    MotherName:"居绮丽",
+    Relation2:"母女",
+    MotherTel:13402887625,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"45131967@qq.com",
+    No:"08",
+};
+Student9={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 蒲思萱",
+    FatherName:"蒲德本",
+    Relation1:"父女",
+    FatherTel:17810744685,
+    MotherName:"郭水晶",
+    Relation2:"母女",
+    MotherTel:18382254567,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"414370857@qq.com",
+    No:"09",
+};
+Student10={
+    role:"SmallStudent",
+    grade:"小班",
+    Name:" 从雯华",
+    FatherName:"从玉韵",
+    Relation1:"父女",
+    FatherTel:13611111451,
+    MotherName:"文采柳",
+    Relation2:"母女",
+    MotherTel:15680885172,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"245212299@qq.com",
+    No:"10",
+};
+//班级 中班
+Student11={
+    role:"MiddleStudent",  
+    grade:"中班",
+    Name:" 沃和正",
+    FatherName:"沃阳云",
+    Relation1:"父子",
+    FatherTel:15881505102,
+    MotherName:"漕银柳",
+    Relation2:"母子",
+    MotherTel:19141243347,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"978751797@qq.com",
+    No:"11",
+};
+Student12={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 刘承教",
+    FatherName:"刘正诚",
+    Relation1:"父子",
+    FatherTel:18181262200,
+    MotherName:"陆迎荷",
+    Relation2:"母子",
+    MotherTel:16505677293,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"116670931@qq.com",
+    No:"12",
+};
+Student13={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 古飞鸿",
+    FatherName:"吉宏浚",
+    Relation1:"父子",
+    FatherTel:15378524895,
+    MotherName:"冯悦怡",
+    Relation2:"母子",
+    MotherTel:13881909944,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"751232303@qq.com",
+    No:"13",
+};
+Student14={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 唐天荷",
+    FatherName:"唐蕴藉",
+    Relation1:"父女",
+    FatherTel:15283407119,
+    MotherName:"堵梦竹",
+    Relation2:"母女",
+    MotherTel:13558685992,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"412667519@qq.com",
+    No:"14",
+};
+Student15={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 邴君茹",
+    FatherName:"邴志尚",
+    Relation1:"父女",
+    FatherTel:17828527949,
+    MotherName:"连清绮",
+    Relation2:"母女",
+    MotherTel:18884332324,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"893505833@qq.com",
+    No:"15",
+};
+Student16={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 瞿翠萱",
+    FatherName:"瞿和歌",
+    Relation1:"父女",
+    FatherTel:19960265259,
+    MotherName:"张影梅",
+    Relation2:"母女",
+    MotherTel:14731298254,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"523580297@qq.com",
+    No:"16",
+};
+Student17={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 谢楼兰",
+    FatherName:"谢华池",
+    Relation1:"父模板",
+    FatherTel:18215732913,
+    MotherName:"宿雅旋",
+    Relation2:"母女",
+    MotherTel:19950314561,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"306724183@qq.com",
+    No:"17",
+};
+Student18={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 翟惜儿",
+    FatherName:"翟英奕",
+    Relation1:"父女",
+    FatherTel:19983846252,
+    MotherName:"慕雨竹",
+    Relation2:"母女",
+    MotherTel:13094445853,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"82035949@qq.com",
+    No:"18",
+};
+Student19={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 毛平良",
+    FatherName:"毛国源",
+    Relation1:"父女",
+    FatherTel:18942801517,
+    MotherName:"辛映梦",
+    Relation2:"母女",
+    MotherTel:18981865158,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"789955982@qq.com",
+    No:"19",
+};
+Student20={
+    role:"MiddleStudent",
+    grade:"中班",
+    Name:" 蓬子明",
+    FatherName:"蓬乐成",
+    Relation1:"父子",
+    FatherTel:18383417961,
+    MotherName:"苍雅晗",
+    Relation2:"母子",
+    MotherTel:17761267486,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"913037469@qq.com",
+    No:"20",
+};
+//班级 大班
+Student21={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 怀雨星",
+    FatherName:"怀学林",
+    Relation1:"父子",
+    FatherTel:18010604980,
+    MotherName:"石卿月",
+    Relation2:"母子",
+    MotherTel:13540381678,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"197635216@qq.com",
+    No:"21",
+};
+Student22={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 宓伟博",
+    FatherName:"宓永福",
+    Relation1:"父子",
+    FatherTel:13541175350,
+    MotherName:"欧姗姗",
+    Relation2:"母子",
+    MotherTel:17039572833,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"698112031@qq.com",
+    No:"22",
+};
+Student23={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 燕明轩",
+    FatherName:"燕茂才",
+    Relation1:"父子",
+    FatherTel:19141282533,
+    MotherName:"班语雪",
+    Relation2:"母子",
+    MotherTel:17006444388,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"853500776@qq.com",
+    No:"23",
+};
+Student24={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 李浩歌",
+    FatherName:"李俊美",
+    Relation1:"父子",
+    FatherTel:16527384669,
+    MotherName:"孔淑颖",
+    Relation2:"母子",
+    MotherTel:14733885249,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"257693010@qq.com",
+    No:"24",
+};
+Student25={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 许泰鸿",
+    FatherName:"许修诚",
+    Relation1:"父子",
+    FatherTel:14710475005,
+    MotherName:"连傲芙",
+    Relation2:"母子",
+    MotherTel:13348963681,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"958130080@qq.com",
+    No:"25",
+};
+Student26={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 董琬玲",
+    FatherName:"董嘉言",
+    Relation1:"父女",
+    FatherTel:18428007545,
+    MotherName:"秦崇芳",
+    Relation2:"母女",
+    MotherTel:18180692735,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"65636550@qq.com",
+    No:"26",
+};
+Student27={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 钱婷旭",
+    FatherName:"钱弘义",
+    Relation1:"父女",
+    FatherTel:17151406735,
+    MotherName:"菱翠曼",
+    Relation2:"母女",
+    MotherTel:18581501909,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"250001120@qq.com",
+    No:"27",
+};
+Student28={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 汪顾萌",
+    FatherName:"汪康泰",
+    Relation1:"父女",
+    FatherTel:14728095527,
+    MotherName:"陆梦寒",
+    Relation2:"母女",
+    MotherTel:17345047520,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"95414785@qq.com",
+    No:"28",
+};
+Student29={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 公雅隽",
+    FatherName:"公鹏赋",
+    Relation1:"父女",
+    FatherTel:14732397016,
+    MotherName:"谢凌蝶",
+    Relation2:"母女",
+    MotherTel:13688086228,
+    Age:8,
+    Sex:"女",
+    attendance:"正常",
+    Email:"233714638@qq.com",
+    No:"29",
+};
+Student30={
+    role:"LargeStudent",
+    grade:"大班",
+    Name:" 程康盛",
+    FatherName:"程昊焱",
+    Relation1:"父子",
+    FatherTel:14732757546,
+    MotherName:"周梓倩",
+    Relation2:"母子",
+    MotherTel:13666137478,
+    Age:8,
+    Sex:"男",
+    attendance:"正常",
+    Email:"104646625@qq.com",
+    No:"30",
+};
+//大班
+var LClass=[Student21,Student22,Student23,Student24,Student25,Student26,Student27,Student28,Student29,Student30];
+//中班
+var MClass=[Student11,Student12,Student13,Student14,Student15,Student16,Student17,Student18,Student19,Student20];
+//小班
+var SClass=[Student1,Student2,Student3,Student4,Student5,Student6,Student7,Student8,Student9,Student10,Student11];
+console.log(LClass);
+console.log(MClass);        
+console.log(SClass);
+
+Class1={
+    ID:1,
+    nianji:"大班",
+    Name:"大一班",
+    ZName:"程昊焱",
+    BName:"梨花", 
+    PName:"李婷",
+    TName:"周梓倩", 
+    date:"2020-05-28 14:32:16",
+    BNum:1,
+    Nianji:"大班",
+};
+Class2={
+    ID:2,
+    nianji:"大班",
+    Name:"大二班",
+    ZName:"涵易",
+    BName:"忆之", 
+    PName:"幻巧",
+    TName:"美倩", 
+    date:"2020-05-28 14:32:18",
+    BNum:2,
+    Nianji:"大班",
+};
+Class3={
+    ID:3,
+    nianji:"大班",
+    Name:"大三班",
+    ZName:"安寒",
+    BName:"白亦", 
+    PName:"惜玉",
+    TName:"碧春", 
+    date:"2020-05-28 14:32:20",
+    BNum:3,
+    Nianji:"大班",
+};
+
+Class4={
+    ID:4,
+    nianji:"大班",
+    Name:"大四班",
+    ZName:"怜雪",
+    BName:"听南", 
+    PName:"念蕾",
+    TName:"紫夏", 
+    date:"2020-05-28 14:32:22",
+    BNum:4,
+    Nianji:"大班",
+};
+Class5={
+    ID:5,
+    nianji:"小班",
+    Name:"小三班",
+    ZName:"凌旋",
+    BName:"芷梦", 
+    PName:"凌寒",
+    TName:"梦竹", 
+    date:"2020-05-28 14:32:28",
+    BNum:5,
+    Nianji:"小班",  
+};
+Class6={
+    ID:6,
+    nianji:"小班",
+    Name:"小一班",    
+    ZName:"程昊焱",
+    BName:"梨花", 
+    PName:"李婷",
+    TName:"周梓倩", 
+    date:"2020-05-28 14:32:34",
+    BNum:6,
+    Nianji:"小班",  
+};
+Class7={
+    ID:7,
+    nianji:"小班",
+    Name:"小二班",    
+    ZName:"千凡",
+    BName:"丹蓉", 
+    PName:"慧贞",
+    TName:"思菱", 
+    date:"2020-05-28 14:32:41",
+    BNum:7,
+    Nianji:"小班",  
+};
+Class8={
+    ID:8,
+    nianji:"中班",
+    Name:"中一班",    
+    ZName:"平卉",
+    BName:"笑柳", 
+    PName:"雪卉",
+    TName:"南蓉", 
+    date:"2020-05-28 14:32:44",
+    BNum:3,
+    Nianji:"中班",  
+};
+Class9={
+    ID:9,
+    nianji:"中班",
+    Name:"中二班",    
+    ZName:"谷梦",
+    BName:"飞荷", 
+    PName:"佳蕊",
+    TName:"怀瑶", 
+    date:"2020-05-28 14:32:50",
+    BNum:3,
+    Nianji:"中班",  
+};
+Class10={
+    ID:10,
+    nianji:"中班",
+    Name:"中三班",    
+    ZName:"恨桃",
+    BName:"李子柒", 
+    PName:"依秋",
+    TName:"依波", 
+    date:"2020-05-28 14:33:05",
+    BNum:3,
+    Nianji:"中班",  
+};
+var Class = [Class1,Class2,Class3,Class4,Class5,Class6,Class7,Class8,Class9,Class10,]
+
+NClass1={
+    	ID:1,
+	YName:"大班",
+	YNum:2,
+	date:"2020-05-31 12:12:25",
+}
+NClass2={
+    	ID:2,
+	YName:"小班",
+	YNum:3,
+	date:"2020-05-30 17:33:05",
+}
+NClass3={
+    	ID:3,
+	YName:"中班",
+	YNum:4,
+	date:"2020-05-28 14:33:05",
+}
+var NClass = [NClass1,NClass2,NClass3]
+//https://www.jianshu.com/p/39ba41ead42e
+
+
+
+
